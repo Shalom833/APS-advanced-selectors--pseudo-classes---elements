@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 5, 78);
+    color: rgb(119, 224, 224);
+}
+h1{
+    color: rgb(50, 211, 63);
+    text-decoration: underline;
+}
+a{
+    color: rgb(50, 85, 85);
+    text-decoration: none;
+    text-shadow: 4px 7px 5px ;
+    background-color: rgb(64, 160, 26);
+}
+a:hover{
+    color: rgb(89, 0, 255);
+}
+ul>li{
+    font-weight: bold;
+    color: rgb(245, 235, 99);
+    font-size: 120%;
+}
+ul li:hover{
+    color: rgb(85, 40, 158);
+}
+h1+p{
+    color: rgb(121, 31, 206);
+    font-style: italic;
+    font-weight: bold;
+}
+ul li:nth-child(7){
+    background-color: rgba(151, 95, 202, 0.712);
+}
+p{
+   color: rgb(115, 22, 201); 
+   font-weight: bold;
+}
+.p2::first-letter{
+    font-size: 200%;
+    color: rgb(154, 106, 199);
+}
+ul li::before{
+    content: "📸";
+}
+a::after{
+    content: "🎞️";
+}
